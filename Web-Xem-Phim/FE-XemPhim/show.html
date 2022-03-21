@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+</head>
+<body>
+
+
+<div>
+    <!-- Create Modal -->
+    <div class="modal fade" id="create" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Modal create</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="createName">Name:</label>
+                        <input type="text" class="form-control" id="createName">
+                    </div>
+                    <div class="form-group">
+                        <label for="createTime">Time</label>>
+                        <input type="text" class="form-control" id="createTime">
+                    </div>
+                    <div class="form-group">
+                        <label for="createDescription">Description:</label>
+                        <input type="text" class="form-control" id="createDescription">
+                    </div>
+                    <div class="form-group">
+                        <label for="createimg">Img:</label>
+                        <input type="text" class="form-control" id="createimg">
+                    </div>
+                    <div class="form-group">
+                        <label for="createVideo">Video:</label>
+                        <input type="text" class="form-control" id="createVideo">
+                    </div>
+                    <div class="form-group">
+                        <label for="createdateUp">dateUp:</label>
+                        <input type="text" class="form-control" id="createdateUp">
+                    </div>
+                    <div class="form-group">
+                        <label for="createLikeM">Like:</label>
+                        <input type="text" class="form-control" id="createLikeM">
+                    </div>
+                    <div class="form-group">
+                        <label for="createViewM">View:</label>
+                        <input type="text" class="form-control" id="createViewM">
+                    </div>
+                    <div class="form-group">
+                        <label for="createCategory">Category:</label>
+                        <select id="createCategory" class="form-control">
+                        </select>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" onclick="create()" data-dismiss="modal">Save
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Edit Modal -->
+    <div class="modal fade" id="edit" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Modal Edit</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <input type="number" hidden id="editId">
+                    <div class="form-group">
+                        <label for="editName">Name:</label>
+                        <input type="text" class="form-control" id="editName">
+                    </div>
+                    <div class="form-group">
+                        <label for="editTime">Time:</label>
+                        <input type="text" class="form-control" id="editTime">
+                    </div>
+                    <div class="form-group">
+                        <label for="editDescription">Description:</label>
+                        <input type="text" class="form-control" id="editDescription">
+                    </div>
+                    <div class="form-group">
+                        <label for="editimg">Img:</label>
+                        <input type="text" class="form-control" id="editimg">
+                    </div>
+                    <div class="form-group">
+                        <label for="editVideo">Video:</label>
+                        <input type="text" class="form-control" id="editVideo">
+                    </div>
+                    <div class="form-group">
+                        <label for="editdateUp">dateUp:</label>
+                        <input type="text" class="form-control" id="editdateUp">
+                    </div>
+                    <div class="form-group">
+                        <label for="editLikeM">Like:</label>
+                        <input type="text" class="form-control" id="editLikeM">
+                    </div>
+                    <div class="form-group">
+                        <label for="editViewM">View:</label>
+                        <input type="text" class="form-control" id="editViewM">
+                    </div>
+                    <div class="form-group">
+                        <label for="editCategory">Category:</label>
+                        <select id="editCategory" class="form-control">
+                        </select>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" onclick="edit()" data-dismiss="modal">Save
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Delete Modal -->
+    <div class="modal fade" id="delete" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Modal Delete</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <input type="number" hidden id="deleteId">
+                    <div class="form-group">
+                        <label for="deleteName">Name:</label>
+                        <input type="text" class="form-control" id="deleteName">
+                    </div>
+                    <div class="form-group">
+                        <label for="deleteTime">Time:</label>
+                        <input type="text" class="form-control" id="deleteTime">
+                    </div>
+                    <div class="form-group">
+                        <label for="deleteDescription">Description:</label>
+                        <input type="text" class="form-control" id="deleteDescription">
+                    </div>
+                    <div class="form-group">
+                        <label for="deleteimg">Img:</label>
+                        <input type="text" class="form-control" id="deleteimg">
+                    </div>
+                    <div class="form-group">
+                        <label for="deleteVideo">Video:</label>
+                        <input type="text" class="form-control" id="deleteVideo">
+                    </div>
+                    <div class="form-group">
+                        <label for="deletedateUp">dateUp:</label>
+                        <input type="text" class="form-control" id="deletedateUp">
+                    </div>
+                    <div class="form-group">
+                        <label for="deleteLikeM">Like:</label>
+                        <input type="text" class="form-control" id="deleteLikeM">
+                    </div>
+                    <div class="form-group">
+                        <label for="deleteViewM">view:</label>
+                        <input type="text" class="form-control" id="deleteViewM">
+                    </div>
+                    <div class="form-group">
+                        <label for="deleteCategory">Category:</label>
+                        <select id="deleteCategory" class="form-control">
+                        </select>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" onclick="deleteMovie()" data-dismiss="modal">Delete
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container" style="margin-top:30px">
+        <h1><a href="index.html">Home</a></h1>
+        <h2>Movie Manager</h2>
+        <p></p>
+
+        <div id="create-modal" class="html-editor-align-left">
+
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#create">
+                Add new movie
+            </button>
+        </div>
+
+        <div class="container">
+            <div class="html-editor-align-right">
+                <input type="text" id="searchName" placeholder="....">
+                <button onclick="searchName()" class="btn btn-primary">
+                    Search
+                </button>
+            </div>
+        </div>
+
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Time</th>
+                <th>Description</th>
+                <th>Img</th>
+                <th>Video</th>
+                <th>Date up</th>
+                <th>Like</th>
+                <th>View</th>
+                <th>Category</th>
+                <th colspan="2">Action</th>
+            </tr>
+            </thead>
+            <tbody id="tbody">
+            </tbody>
+        </table>
+    </div>
+</div>
+</body>
+<script src="js/js.js"></script>
+</html>

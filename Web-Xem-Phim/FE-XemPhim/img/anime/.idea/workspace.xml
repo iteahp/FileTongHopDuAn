@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="13bca7ac-fac6-4e81-b7db-ddcd29f3aac2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../js/fileCategory.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../js/fileDetailJs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../js/fileIndex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../js/fileProperties.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../js/fileSearch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../js/fileWatching.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../properties.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../casemd4/src/main/java/com/example/casemd4/controller/MovieSubController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../casemd4/src/main/java/com/example/casemd4/model/query/CommentCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../anime-details.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../anime-details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../anime-watching.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../anime-watching.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../categories.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../categories.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/review-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/review-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../casemd4/build/classes/java/main/com/example/casemd4/controller/MovieController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../casemd4/build/classes/java/main/com/example/casemd4/controller/MovieController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../casemd4/build/classes/java/main/com/example/casemd4/model/Comment.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../casemd4/build/classes/java/main/com/example/casemd4/model/Comment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../casemd4/build/classes/java/main/com/example/casemd4/model/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../casemd4/build/classes/java/main/com/example/casemd4/model/Movie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../casemd4/build/classes/java/main/com/example/casemd4/repository/CommentRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../casemd4/build/classes/java/main/com/example/casemd4/repository/CommentRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../casemd4/build/classes/java/main/com/example/casemd4/repository/MovieRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../casemd4/build/classes/java/main/com/example/casemd4/repository/MovieRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../casemd4/build/classes/java/main/com/example/casemd4/service/CategoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../casemd4/build/classes/java/main/com/example/casemd4/service/CategoryService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../casemd4/build/classes/java/main/com/example/casemd4/service/CommentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../casemd4/build/classes/java/main/com/example/casemd4/service/CommentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../casemd4/build/classes/java/main/com/example/casemd4/service/ICategoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../casemd4/build/classes/java/main/com/example/casemd4/service/ICategoryService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../casemd4/build/classes/java/main/com/example/casemd4/service/ICommentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../casemd4/build/classes/java/main/com/example/casemd4/service/ICommentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../casemd4/build/classes/java/main/com/example/casemd4/service/IMovieService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../casemd4/build/classes/java/main/com/example/casemd4/service/IMovieService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../casemd4/build/classes/java/main/com/example/casemd4/service/MovieService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../casemd4/build/classes/java/main/com/example/casemd4/service/MovieService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../casemd4/build/resources/main/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../casemd4/build/resources/main/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../casemd4/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../casemd4/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../casemd4/src/main/java/com/example/casemd4/controller/MovieController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../casemd4/src/main/java/com/example/casemd4/controller/MovieController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../casemd4/src/main/java/com/example/casemd4/model/Comment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../casemd4/src/main/java/com/example/casemd4/model/Comment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../casemd4/src/main/java/com/example/casemd4/model/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../casemd4/src/main/java/com/example/casemd4/model/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../casemd4/src/main/java/com/example/casemd4/repository/CommentRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../casemd4/src/main/java/com/example/casemd4/repository/CommentRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../casemd4/src/main/java/com/example/casemd4/repository/MovieRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../casemd4/src/main/java/com/example/casemd4/repository/MovieRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../casemd4/src/main/java/com/example/casemd4/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../casemd4/src/main/java/com/example/casemd4/service/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../casemd4/src/main/java/com/example/casemd4/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../casemd4/src/main/java/com/example/casemd4/service/CommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../casemd4/src/main/java/com/example/casemd4/service/ICategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../casemd4/src/main/java/com/example/casemd4/service/ICategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../casemd4/src/main/java/com/example/casemd4/service/ICommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../casemd4/src/main/java/com/example/casemd4/service/ICommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../casemd4/src/main/java/com/example/casemd4/service/IMovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../casemd4/src/main/java/com/example/casemd4/service/IMovieService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../casemd4/src/main/java/com/example/casemd4/service/MovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../casemd4/src/main/java/com/example/casemd4/service/MovieService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../casemd4/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../../casemd4/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="24wcv2zX0lmgLbVGClcMnMpi9zn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="13bca7ac-fac6-4e81-b7db-ddcd29f3aac2" name="Changes" comment="" />
+      <created>1644545316717</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1644545316717</updated>
+      <workItem from="1644545317953" duration="11000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
